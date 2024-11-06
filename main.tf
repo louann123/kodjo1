@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1"
+  region = "us-east-2"
 }
 resource "aws_instance" "Tennen" {
   ami           = "ami-0715c1897453cabd1"
